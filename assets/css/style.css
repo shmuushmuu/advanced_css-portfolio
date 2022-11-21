@@ -2,13 +2,6 @@
 CSS doc. Time to learn how to do that. */
 
 header {
-    padding: padding: 30px;
-    font-family: 'Arial';
-    
+    padding: 30px;
 }
 
-.hero {
-    background-image: url("../images/logo-img.jpg");
-    background-size: cover;
-    background-position: center;
-}

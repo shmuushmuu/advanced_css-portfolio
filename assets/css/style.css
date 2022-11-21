@@ -2,6 +2,8 @@
 CSS doc. Time to learn how to do that. */
 
 header {
+    height: 100px;
+    width: 100%;
     padding: 30px;
     display: flex;
     flex: block;
@@ -45,7 +47,7 @@ a {
 }
 
 a :hover {
-    text-decoration: wavy;
+    text-decoration: underline;
 }
 
 p {

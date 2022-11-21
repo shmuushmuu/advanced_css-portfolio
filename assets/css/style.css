@@ -5,5 +5,19 @@ body {
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: rgb(6, 111, 146);
+    background-color: rgb(6, 64, 146);
+}
+
+.container > header {
+    padding: 20px;
+    background-color: rgb(26, 25, 37);
+    color: rgb(4, 118, 4);
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 16px;
+    color: whitesmoke;
+    text-decoration: none;
 }

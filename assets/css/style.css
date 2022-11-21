@@ -3,14 +3,37 @@ CSS doc. Time to learn how to do that. */
 
 header {
     padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: top;
 }
 
 body {
-    background-color: slateblue
+    display: flex;
+    justify-content: center;
+    background-color: slateblue;
+    
 }
 
 .container {
     max-width: 1440px;
-    margin: 0 auto;
+    margin: 30 px;
+    padding: 30 px;
+    border: 15 px;
     background-color: darkblue;
+    border-color: darkgreen;
+}
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: green;
+    text-shadow: 2px;
+}
+
+.about {
+
+}
+
+.work {
+
 }

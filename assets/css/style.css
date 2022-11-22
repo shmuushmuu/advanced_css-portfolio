@@ -21,3 +21,22 @@ nav a {
     color: whitesmoke;
     text-decoration: none;
 }
+
+section {
+    padding: 20px;
+    font-size: 28px;
+    line-height: 40px;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 50%;
+}
+
+.featured {
+    width: 100%;
+}

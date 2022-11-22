@@ -59,8 +59,6 @@ nav, footer a {
     padding: 16px;
     content: 12px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 section {
@@ -72,7 +70,7 @@ section {
 .about-settings {
     display: flex;
     align-items: flex-start;
-    padding: 100px;
+    padding: 50px;
 }
 
 .about-settings img {
@@ -107,7 +105,8 @@ footer {
     background-color: rgb(4, 37, 71);
     color: rgb(215, 215, 216);
     border: 2px rgb(215,215,216);
-    border-style: groove;
+    border-style: dashed;
+    display: -webkit-box;
 }
 
 @media screen and (max-width: 768px) {

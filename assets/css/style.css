@@ -1,17 +1,11 @@
 body {
-    padding: 1em;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box;
-    background-color: rgb(215, 215, 216);
-    background-image: linear-gradient(175deg, rgba (0,0,0,0) 95%, #8b96b4 95%);
-                      linear-gradient( 85deg, rgba (0,0,0,0) 95%, #8b96b4 95%) 
+    background-color: rgb(4, 37, 71);
 }
 
 .container {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: rgb(6, 64, 146);
+    background-image: linear-gradient(rgb(215,215,216), blue);
 }
 
 h1 {
@@ -33,7 +27,7 @@ p {
 .container > header {
     padding: 20px;
     background-color: rgb(215, 215, 216);
-    color: rgb(4, 118, 4);
+    color: rgb(10, 4, 86);
     display: flex;
     justify-content: space-between;
 }
@@ -42,6 +36,7 @@ nav, footer a {
     margin-left: 16px;
     color: rgb(210, 211, 212);
     text-decoration: none;
+    padding: 20px;
 }
 
 section {

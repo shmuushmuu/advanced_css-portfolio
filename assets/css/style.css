@@ -9,11 +9,14 @@ body {
 }
 
 header img {
-    display: absolute;
+    display: inline-block;
 }
 
 h1 {
     font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 h2 {
@@ -54,6 +57,10 @@ nav, footer a {
     color: rgb(210, 211, 212);
     text-decoration: underline;
     padding: 16px;
+    content: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section {
@@ -65,6 +72,7 @@ section {
 .about-settings {
     display: flex;
     align-items: flex-start;
+    padding: 100px;
 }
 
 .about-settings img {
@@ -76,6 +84,7 @@ section {
 .work {
     display: flex;
     flex-wrap: wrap;
+    width: 50%;
 }
 
 article {
@@ -99,4 +108,10 @@ footer {
     color: rgb(215, 215, 216);
     border: 2px rgb(215,215,216);
     border-style: groove;
+}
+
+@media screen and (max-width: 768px) {
+    section: {
+        width: calc(100%);
+    }    
 }

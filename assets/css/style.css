@@ -8,6 +8,18 @@ body {
     background-color: rgb(6, 64, 146);
 }
 
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
 .container > header {
     padding: 20px;
     background-color: rgb(26, 25, 37);
@@ -16,7 +28,7 @@ body {
     justify-content: space-between;
 }
 
-nav a {
+nav, footer a {
     margin-left: 16px;
     color: rgb(210, 211, 212);
     text-decoration: none;
@@ -26,6 +38,16 @@ section {
     padding: 20px;
     font-size: 28px;
     line-height: 40px;
+}
+
+.about-settings {
+    display: flex;
+    align-items: flex-start;
+}
+
+.about-settings img {
+    margin-right: 12px;
+    margin bottom: 12px:
 }
 
 #work {
@@ -44,4 +66,12 @@ article img {
 
 .featured {
     width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: rgb(26, 25, 37);
+    color: rgb(4, 118, 4);
+    display: flex;
+    justify-content: flex-end;
 }

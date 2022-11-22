@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(210, 211, 212);
+    background-color: rgb(4, 37, 71);
 }
 
 .container {
@@ -9,20 +9,24 @@ body {
 }
 
 h1 {
-    font-size: 44px;
-}
-
-h2 {
     font-size: 32px;
 }
 
+h2 {
+    font-size: 24px;
+}
+
 h3 {
-    font-size: 28px;
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
 }
 
 .container > header {
     padding: 20px;
-    background-color: rgb(26, 25, 37);
+    background-color: rgb(215, 215, 216);
     color: rgb(4, 118, 4);
     display: flex;
     justify-content: space-between;
@@ -47,7 +51,8 @@ section {
 
 .about-settings img {
     margin-right: 12px;
-    margin bottom: 12px;
+    margin-bottom: 12px;
+
 }
 
 #work {

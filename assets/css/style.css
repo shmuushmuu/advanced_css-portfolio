@@ -65,6 +65,11 @@ nav a {
     justify-content: space-evenly;
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 footer a {
     margin: 8px;
     color: rgb(210, 211, 212);

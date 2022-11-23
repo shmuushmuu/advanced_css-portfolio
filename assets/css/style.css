@@ -71,7 +71,7 @@ nav {
 }
 
 footer a {
-    margin: 8px;
+    margin: auto;
     color: rgb(210, 211, 212);
     text-decoration: underline;
     padding: 16px;
@@ -83,19 +83,22 @@ section {
     padding: 20px;
     font-size: 28px;
     line-height: 40px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .about-settings {
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
+    align-content: center;
 }
 
 .about-settings img {
     margin-right: 12px;
     margin-bottom: 12px;
     border-radius: 20px;
-
+    align-content: center;
 }
 
 .work {
@@ -121,7 +124,8 @@ footer {
     color: rgb(215, 215, 216);
     border: 2px rgb(215,215,216);
     border-style: dashed;
-    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @media screen and (max-width: 768px) {

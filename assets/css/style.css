@@ -47,18 +47,31 @@ p {
     background-color: rgb(215, 215, 216);
     color: rgb(10, 4, 86);
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
     border: 2 px rgb(4, 37, 71);
     border-style: dotted;
 }
 
-nav, footer a {
+nav a {
+    margin: 34px;
+    color: rgb(3, 43, 83);
+    text-decoration: underline;
+    padding: 16px;
+    content: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+footer a {
     margin: 8px;
     color: rgb(210, 211, 212);
     text-decoration: underline;
     padding: 16px;
     content: 12px;
-    display: flex;
+    justify-content: space-between;
 }
 
 section {
@@ -109,5 +122,11 @@ footer {
 @media screen and (max-width: 768px) {
     section {
         width: calc(100%);
+    }    
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        display: block;
     }    
 }
